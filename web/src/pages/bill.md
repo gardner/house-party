@@ -275,8 +275,7 @@ The Parliament of New Zealand enacts as follows:
     1. The Parliament shall review and enact necessary amendments promptly to support the objectives of this Act.
 1. Savings and Transitional Provisions
     1. All actions and decisions taken under previous laws related to land valuation and taxation shall remain valid and enforceable to the extent that they are not inconsistent with the provisions of this Act.
-    1. Transitional arrangements specified in 
-## Section 9 of this Act shall apply to ensure a smooth transition to the new Land Value Tax (LVT) and Universal Basic Income (UBI) systems.
+    1. Transitional arrangements specified in ection 9 of this Act shall apply to ensure a smooth transition to the new Land Value Tax (LVT) and Universal Basic Income (UBI) systems.
     1. Any rights, liabilities, obligations, or proceedings existing or pending under previous laws shall not be affected by the enactment of this Act, except as provided in this Act.
 1. Interpretation and Dispute Resolution
     1. In the event of any ambiguity or uncertainty in the interpretation of this Act, the provisions shall be interpreted in a manner that best achieves the objectives of the Act.
