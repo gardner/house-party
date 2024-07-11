@@ -1,68 +1,39 @@
----
-layout: ../layouts/Layout.astro
+# Affordable Housing Bill
+
+Government Bill
+
+XXX-X
+
+
+## Explanatory Note
+
+This bill aims to address the pressing issue of housing affordability in New Zealand through the implementation of a Land Value Tax (LVT) system and the provision of Universal Basic Income (UBI) payments. The primary objectives of this legislation are to stabilize housing prices, promote efficient land use, and provide financial relief to residents during periods of high housing costs.
+
+Key features of the bill include:
+
+1. Land Value Tax (LVT): A tax levied on the unimproved value of land, designed to discourage speculative land holding and encourage productive use of land. The LVT rate is adjusted based on the ratio of median house prices to median household incomes (median multiple).
+
+2. Universal Basic Income (UBI): Payments distributed equally to all eligible registered voters, funded by revenue generated from the LVT. These payments aim to provide financial support during periods when housing is deemed unaffordable.
+
+3. Median Multiple Mechanism: The bill establishes a system for regularly assessing the median multiple (ratio of median house price to median annual household income) to determine LVT rates and UBI payment activation.
+
+4. Administration and Enforcement: The Inland Revenue Department (IRD) is designated as the primary authority responsible for administering and enforcing the LVT and UBI systems.
+
+5. Revenue Allocation: The bill outlines how LVT revenue will be used, prioritizing UBI payments and allocating surplus to an Affordable Housing Fund for housing-related initiatives.
+
+6. Review and Adjustment Mechanisms: Provisions for periodic review and adjustment of the LVT and UBI systems to ensure ongoing effectiveness.
+
+7. Transitional Arrangements: The bill includes measures to phase in the LVT system and provide support during the transition period.
+
+This legislation represents a significant shift in New Zealand's approach to housing affordability and land use. It aims to create a more equitable system that benefits all residents while promoting sustainable urban development.
+
+The bill draws on economic theories of land value taxation and universal basic income, adapting these concepts to address New Zealand's specific housing challenges. It has been developed in consultation with economists, housing experts, local government representatives, and community stakeholders.
 
 ---
-
-<span class="house-markdown">
 
 # Affordable Housing Bill
 
-## Contents
-
-1. **Title and Purpose**
-   - [1.1 Short Title](#11-short-title)
-   - [1.2 Purpose of the Act](#12-purpose-of-the-act)
-
-2. **Definitions**
-   - [2.1 Key Terms](#21-key-terms)
-   - [2.2 Interpretation](#22-interpretation)
-
-3. **Establishment of Land Value Tax (LVT)**
-   - [3.1 Imposition of LVT](#31-imposition-of-lvt)
-   - [3.2 Calculation of LVT Rates](#32-calculation-of-lvt-rates)
-   - [3.3 Adjustment of LVT Rates Based on Median Multiple](#33-adjustment-of-lvt-rates-based-on-median-multiple)
-
-4. **Criteria for Median Multiple**
-   - [4.1 Definition of Median Multiple](#41-definition-of-median-multiple)
-   - [4.2 Data Collection and Reporting](#42-data-collection-and-reporting)
-   - [4.3 Frequency of Median Multiple Assessment](#43-frequency-of-median-multiple-assessment)
-
-5. **Universal Basic Income (UBI) Payments**
-   - [5.1 Establishment of UBI Linked to LVT](#51-establishment-of-ubi-linked-to-lvt)
-   - [5.2 Eligibility Criteria for UBI Payments](#52-eligibility-criteria-for-ubi-payments)
-   - [5.3 Distribution Mechanism for UBI Payments](#53-distribution-mechanism-for-ubi-payments)
-
-6. **Administration and Enforcement**
-   - [6.1 Responsible Authorities](#61-responsible-authorities)
-   - [6.2 Mandate for Inland Revenue Department (IRD)](#62-mandate-for-inland-revenue-department-ird)
-   - [6.3 Collection and Administration of LVT](#63-collection-and-administration-of-lvt)
-   - [6.4 Monitoring and Enforcement Mechanisms](#64-monitoring-and-enforcement-mechanisms)
-
-7. **Use of LVT Revenue**
-   - [7.1 Allocation of LVT Revenue](#71-allocation-of-lvt-revenue)
-   - [7.2 Funding of UBI Payments](#72-funding-of-ubi-payments)
-   - [7.3 Surplus Revenue Management](#73-surplus-revenue-management)
-
-8. **Review and Adjustment Mechanisms**
-   - [8.1 Periodic Review of LVT and UBI System](#81-periodic-review-of-lvt-and-ubi-system)
-   - [8.2 Adjustment of Rates and Thresholds](#82-adjustment-of-rates-and-thresholds)
-   - [8.3 Consultation and Public Input](#83-consultation-and-public-input)
-
-9. **Transitional Provisions**
-   - [9.1 Implementation Timeline](#91-implementation-timeline)
-   - [9.2 Transitional Arrangements for Existing Properties](#92-transitional-arrangements-for-existing-properties)
-   - [9.3 Phasing in of LVT and UBI System](#93-phasing-in-of-lvt-and-ubi-system)
-
-10. **Miscellaneous Provisions**
-    - [10.1 Regulations and Orders](#101-regulations-and-orders)
-    - [10.2 Repeals and Amendments](#102-repeals-and-amendments)
-    - [10.3 Savings and Transitional Provisions](#103-savings-and-transitional-provisions)
-
-11. **Schedules**
-    - [Schedule 1: Detailed Definitions](#schedule-1-detailed-definitions)
-    - [Schedule 2: Calculation Examples](#schedule-2-calculation-examples)
-    - [Schedule 3: Administrative Procedures](#schedule-3-administrative-procedures)
-    - [Schedule 4: Review and Adjustment Timelines](#schedule-4-review-and-adjustment-timelines)
+The Parliament of New Zealand enacts as follows:
 
 
 ### Section 1: Title and Purpose
@@ -128,6 +99,43 @@ layout: ../layouts/Layout.astro
   - **3.3.4.2** Median multiple 3.1 to 4.0: LVT rate = 1% of land value
   - **3.3.4.3** Median multiple 4.1 to 5.0: LVT rate = 2% of land value
   - **3.3.4.4** Median multiple 5.1 and above: LVT rate = 3% of land value
+
+### Section 4: Land Valuations for LVT Purposes
+
+#### 4.1 Establishment of Land Valuation Unit
+- **4.1.1** A specialized Land Valuation Unit (LVU) shall be established within Quotable Value Limited or as an independent entity under the oversight of the Inland Revenue Department.
+- **4.1.2** The LVU shall be responsible for conducting regular land valuations specifically for the purpose of Land Value Tax assessments.
+
+#### 4.2 Valuation Methodology and Frequency
+- **4.2.1** The LVU shall develop and maintain standardized methodologies for assessing land value, excluding improvements.
+- **4.2.2** Land valuations shall be conducted annually to ensure up-to-date and accurate assessments for LVT purposes.
+- **4.2.3** The valuation methodology shall be transparent and publicly available, incorporating factors such as location, zoning, and local market conditions.
+
+#### 4.3 Funding of Valuations
+- **4.3.1** The primary cost of land valuations shall be borne by the national government to ensure consistency and fairness across all regions.
+- **4.3.2** A portion not exceeding 5% of the annual LVT revenue shall be allocated to offset the costs of the valuation system.
+- **4.3.3** The exact percentage shall be determined annually by the Minister of Finance in consultation with the IRD and the LVU, based on the actual costs incurred and projected needs.
+
+#### 4.4 Appeals Process
+- **4.4.1** Landowners may appeal their land valuation within 60 days of receiving their assessment notice.
+- **4.4.2** A nominal fee, to be set by regulation and not exceeding 1% of the assessed land value or NZD 500, whichever is lower, shall be required to file an appeal.
+- **4.4.3** The appeal fee shall be fully refunded if the appeal results in a reduction of the assessed land value.
+
+#### 4.5 Transparency and Reporting
+- **4.5.1** The LVU shall publish an annual report detailing:
+  - **4.5.1.1** The total cost of conducting land valuations nationwide.
+  - **4.5.1.2** The number of valuations conducted.
+  - **4.5.1.3** A summary of valuation methodologies used.
+  - **4.5.1.4** The number and outcomes of appeals.
+- **4.5.2** This report shall be made publicly available and submitted to Parliament.
+
+#### 4.6 Collaboration with Local Authorities
+- **4.6.1** The LVU shall collaborate with local authorities to ensure that LVT valuations are coordinated with existing rating valuations to minimize duplication and inconsistencies.
+- **4.6.2** Local authorities shall provide relevant data and assistance to the LVU as needed for accurate land valuations.
+
+#### 4.7 Review and Adjustment
+- **4.7.1** The valuation system and its funding mechanism shall be reviewed every three years to ensure efficiency, fairness, and effectiveness.
+- **4.7.2** Based on these reviews, the Minister of Finance may propose adjustments to the valuation process or funding mechanism, subject to parliamentary approval.
 
 
 ### Section 4: Criteria for Median Multiple
@@ -385,4 +393,32 @@ layout: ../layouts/Layout.astro
 - **10.7.2** Based on the findings of the review, Parliament may amend, extend, or repeal this Act as necessary to achieve its objectives.
 - **10.7.3** If no legislative action is taken to extend or amend this Act following the ten-year review, the provisions of this Act shall continue to remain in force.
 
-</span>
+#### Section 11: Land Valuations for LVT Purposes
+- 11.1 Establishment of Land Valuation Unit
+  - 11.1.1 A specialized Land Valuation Unit (LVU) shall be established within Quotable Value Limited or as an independent entity under the oversight of the Inland Revenue Department.
+  - 11.1.2 The LVU shall be responsible for conducting regular land valuations specifically for the purpose of Land Value Tax assessments.
+- 11.2 Valuation Methodology and Frequency
+  - 11.2.1 The LVU shall develop and maintain standardized methodologies for assessing land value, excluding improvements.
+  - 11.2.2 Land valuations shall be conducted annually to ensure up-to-date and accurate assessments for LVT purposes.
+  - 11.2.3 The valuation methodology shall be transparent and publicly available, incorporating factors such as location, zoning, and local market conditions.
+- 11.3 Funding of Valuations
+  - 11.3.1 The primary cost of land valuations shall be borne by the national government to ensure consistency and fairness across all regions.
+  - 11.3.2 A portion not exceeding 5% of the annual LVT revenue shall be allocated to offset the costs of the valuation system.
+  - 11.3.3 The exact percentage shall be determined annually by the Minister of Finance in consultation with the IRD and the LVU, based on the actual costs incurred and projected needs.
+- 11.4 Appeals Process
+  - 11.4.1 Landowners may appeal their land valuation within 60 days of receiving their assessment notice.
+  - 11.4.2 A nominal fee, to be set by regulation and not exceeding 1% of the assessed land value or NZD 500, whichever is lower, shall be required to file an appeal.
+  - 11.4.3 The appeal fee shall be fully refunded if the appeal results in a reduction of the assessed land value.
+- 11.5 Transparency and Reporting
+  - 11.5.1 The LVU shall publish an annual report detailing:
+    - 11.5.1.1 The total cost of conducting land valuations nationwide.
+    - 11.5.1.2 The number of valuations conducted.
+    - 11.5.1.3 A summary of valuation methodologies used.
+    - 11.5.1.4 The number and outcomes of appeals.
+  - 11.5.2 This report shall be made publicly available and submitted to Parliament.
+- 11.6 Collaboration with Local Authorities
+  - 11.6.1 The LVU shall collaborate with local authorities to ensure that LVT valuations are coordinated with existing rating valuations to minimize duplication and inconsistencies.
+  - 11.6.2 Local authorities shall provide relevant data and assistance to the LVU as needed for accurate land valuations.
+- 11.7 Review and Adjustment
+  - 11.7.1 The valuation system and its funding mechanism shall be reviewed every three years to ensure efficiency, fairness, and effectiveness.
+  - 11.7.2 Based on these reviews, the Minister of Finance may propose adjustments to the valuation process or funding mechanism, subject to parliamentary approval.
