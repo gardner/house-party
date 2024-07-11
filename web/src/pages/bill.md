@@ -1,5 +1,33 @@
 # Affordable Housing Bill
 
+## Explanatory Note
+
+This bill aims to address the pressing issue of housing affordability in New Zealand through the implementation of a Land Value Tax (LVT) system and the provision of Universal Basic Income (UBI) payments. The primary objectives of this legislation are to stabilize housing prices, promote efficient land use, and provide financial relief to residents during periods of high housing costs.
+
+Key features of the bill include:
+
+1. Land Value Tax (LVT): A tax levied on the unimproved value of land, designed to discourage speculative land holding and encourage productive use of land. The LVT rate is adjusted based on the ratio of median house prices to median household incomes (median multiple).
+
+2. Universal Basic Income (UBI): Payments distributed equally to all eligible registered voters, funded by revenue generated from the LVT. These payments aim to provide financial support during periods when housing is deemed unaffordable.
+
+3. Median Multiple Mechanism: The bill establishes a system for regularly assessing the median multiple (ratio of median house price to median annual household income) to determine LVT rates and UBI payment activation.
+
+4. Administration and Enforcement: The Inland Revenue Department (IRD) is designated as the primary authority responsible for administering and enforcing the LVT and UBI systems.
+
+5. Revenue Allocation: The bill outlines how LVT revenue will be used, prioritizing UBI payments and allocating surplus to an Affordable Housing Fund for housing-related initiatives.
+
+6. Review and Adjustment Mechanisms: Provisions for periodic review and adjustment of the LVT and UBI systems to ensure ongoing effectiveness.
+
+7. Transitional Arrangements: The bill includes measures to phase in the LVT system and provide support during the transition period.
+
+This legislation represents a significant shift in New Zealand's approach to housing affordability and land use. It aims to create a more equitable system that benefits all residents while promoting sustainable urban development.
+
+The bill draws on economic theories of land value taxation and universal basic income, adapting these concepts to address New Zealand's specific housing challenges. It has been developed in consultation with economists, housing experts, local government representatives, and community stakeholders.
+
+---
+
+# Affordable Housing Bill
+
 The Parliament of New Zealand enacts as follows:
 
 ## Section 1: Title and Purpose
