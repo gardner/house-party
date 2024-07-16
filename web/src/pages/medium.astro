@@ -1,0 +1,154 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Welcome to House Party">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			max-width: 600px;
+			margin: auto;
+			padding: 20px;
+		}
+		.form-group {
+			margin-bottom: 15px;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		input {
+			width: 100%;
+			padding: 8px;
+			box-sizing: border-box;
+		}
+		button {
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: #0056b3;
+		}
+	</style>
+	<script>
+		function calculate() {
+			const medianIncome = parseFloat(
+				document.getElementById("medianIncome").value,
+			);
+			const medianHousePrice = parseFloat(
+				document.getElementById("medianHousePrice").value,
+			);
+			const affordableIncomeMultiple = parseFloat(
+				document.getElementById("affordableIncomeMultiple").value,
+			);
+			const adjustedTaxRate = parseFloat(
+				document.getElementById("adjustedTaxRate").value,
+			);
+			const totalLVTRevenue = parseFloat(
+				document.getElementById("totalLVTRevenue").value,
+			);
+			const population = parseFloat(
+				document.getElementById("population").value,
+			);
+			const myHouseValue = parseFloat(
+				document.getElementById("myHouseValue").value,
+			);
+
+			const affordableHousePrice =
+				medianHousePrice * affordableIncomeMultiple;
+			const currentIncomeMultiple = medianHousePrice / medianIncome;
+			const adjustedTaxRateResult =
+				(adjustedTaxRate - affordableIncomeMultiple) / 100;
+			const ubi = totalLVTRevenue / population;
+			const myAnnualTax = adjustedTaxRateResult * myHouseValue;
+			const myNetCost = myAnnualTax - ubi;
+
+			document.getElementById("affordableHousePrice").textContent =
+				affordableHousePrice.toFixed(2);
+			document.getElementById("currentIncomeMultiple").textContent =
+				currentIncomeMultiple.toFixed(2);
+			document.getElementById("adjustedTaxRateResult").textContent =
+				adjustedTaxRateResult.toFixed(2);
+			document.getElementById("ubi").textContent = ubi.toFixed(2);
+			document.getElementById("myAnnualTax").textContent =
+				myAnnualTax.toFixed(2);
+			document.getElementById("myNetCost").textContent =
+				myNetCost.toFixed(2);
+		}
+	</script>
+
+	<main>
+		<h1>Welcome to <span class="text-gradient">House Party</span></h1>
+		<p class="instructions">
+			Use the Policy Impact Calculator to understand how we can make
+			housing affordable for everyday Kiwis.
+		</p>
+		<h2>Policy Impact Calculator</h2>
+		<div class="container">
+			<div class="form-group">
+				<label for="medianIncome">Median Household Income</label>
+				<input
+					type="number"
+					id="medianIncome"
+					required
+					value="89000"
+				/>
+			</div>
+			<div class="form-group">
+				<label for="medianHousePrice">Median House Price</label>
+				<input
+					type="number"
+					id="medianHousePrice"
+					required
+					value="850000"
+				/>
+			</div>
+			<div class="form-group">
+				<label for="affordableIncomeMultiple"
+					>Affordable Income Multiple</label
+				>
+				<input
+					type="number"
+					id="affordableIncomeMultiple"
+					required
+					value="3"
+				/>
+			</div>
+			<div class="form-group">
+				<label for="adjustedTaxRate">Adjusted Tax Rate</label>
+				<input type="number" id="adjustedTaxRate" required />
+			</div>
+			<div class="form-group">
+				<label for="totalLVTRevenue">Total LVT Revenue</label>
+				<input type="number" id="totalLVTRevenue" required />
+			</div>
+			<div class="form-group">
+				<label for="population">Population</label>
+				<input type="number" id="population" required />
+			</div>
+			<div class="form-group">
+				<label for="myHouseValue">My House Value</label>
+				<input type="number" id="myHouseValue" required />
+			</div>
+			<button onclick="calculate()">Calculate</button>
+			<h3>Results</h3>
+			<p>
+				Affordable House Price: <span id="affordableHousePrice"></span>
+			</p>
+			<p>
+				Current Income Multiple: <span id="currentIncomeMultiple"
+				></span>
+			</p>
+			<p>Adjusted Tax Rate: <span id="adjustedTaxRateResult"></span></p>
+			<p>UBI: <span id="ubi"></span></p>
+			<p>My Annual Tax: <span id="myAnnualTax"></span></p>
+			<p>My Net Cost: <span id="myNetCost"></span></p>
+		</div>
+	</main>
+</Layout>
