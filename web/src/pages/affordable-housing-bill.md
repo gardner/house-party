@@ -23,7 +23,7 @@ The bill draws on economic theories of land value taxation and universal basic i
 
 ## 1 Title and Commencement
 
- * (1) This Act is the Affordable Housing Act 2023.
+ * (1) This Act is the Affordable Housing Act 2024.
 
  * (2) This Act comes into force on the day after the date on which it receives the Royal assent.
 
